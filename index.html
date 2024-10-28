@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preview of My Life - Sanjay</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script> 
+</head>
+<body>
+
+    <header>
+        <h1>Preview of My Life</h1>
+        <p id="greeting">Good Afternoon!</p>
+        <p>Here's a quick glimpse into the life of Sanjay</p>
+    </header>
+
+    <nav>
+        <a href="scsu">SCSU Life</a>
+        <a href="lifestyle">Daily Lifestyle</a>
+        <a href="family">Friends & Family</a>
+    </nav>
+
+    <div class="skills">
+        <h2>My Skills & Hobbies</h2>
+        <ul data-section="skills">
+            <li>Music Production</li>
+            <li>HTML & Web Design</li>
+            <li>Graphic Design</li>
+            <li>Gaming</li>
+        </ul>
+
+        <h2>Gallery</h2>
+        
+        <img id="profileImage" src="https://img.mcla.us/players/58310_2022120431144_hXvR.jpeg" alt="Sanjay's Profile Picture">
+        <img src="https://media.licdn.com/dms/image/v2/D4E22AQGabTCXHT369g/feedshare-shrink_800/feedshare-shrink_800/0/1711049830629?e=2147483647&v=beta&t=py2JnhjT7V6atSWK2iy_cuPApXQI5caWCss_fS7puzM" alt="Orientation 2023: Group 13">
+    </div>
+
+    <div class="Experience">
+        <h2>Education & Work Experience</h2>
+        <table data-info="experience">
+            <tr>
+                <th>University/Job</th>
+                <th>Degree/Role</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Southern CT State University</td>
+                <td>Bachelor's in Computer Science</td>
+                <td>2022 - Present</td>
+            </tr>
+            <tr>
+                <td>Office of Orientation</td>
+                <td>Transfer Student Assistant</td>
+                <td>2023 - Present</td>
+            </tr>
+            <tr>
+                <td>SCSU Computer Science Club</td>
+                <td>Public Relations Chair</td>
+                <td>2024 - 2025</td>
+            </tr>
+        </table>
+
+        <button id="learnMoreBtn" onclick="toggleLearnMore()">Learn More</button>
+        <button id="Move Profile Pic" onclick="toggleMovePic()">Move Picture</button>
+
+        <div id="moreContent" style="display: none;">
+            <p>In addition to my main hobbies, I also enjoy traveling, reading about new technologies, and exploring underground rap music culture. I’m always eager to learn new things and expand my knowledge.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sanjay's Life Preview</p>
+    </footer>
+
+</body>
+</html>
